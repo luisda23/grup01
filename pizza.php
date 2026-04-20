@@ -5,8 +5,8 @@
 	</head>
 	<body>
 		<?php
-        	$preu = 8;
-          	$IVA=21;
+        	$preu = 12;
+          	$IVA=10;
           	if (empty($_GET['ingr'])) {
             	$pvp=((100+$IVA)/100)*$preu;
 	    		echo "Has demanat només la pizza bàsica. El preu és $pvp € (IVA inclòs)<br>";
